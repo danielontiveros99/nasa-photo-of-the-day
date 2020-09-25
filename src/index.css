@@ -5,9 +5,76 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("https://wallpapersafari.com/image/star-wars-theme-backgrounds.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.background{
+  /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
+  /* height: 100vh; */
+  background-color: #3a506b;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: max-content;
+  max-height: max-content;
+  border-style: dotted;
+  border-width: .3rem;
+  border-color: white;
+}
+
+.header{
+  background-color: #1c2541;
+  color: white;
+  margin: 0;
+  margin-left: 25rem;
+  margin-right: 25rem;
+}
+
+.title{
+  background-color: #1c2541;
+  color: white;
+  margin: 0;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  height: 2rem;
+  font-size: 1.3rem;
+}
+
+
+h1{
+  font-size: 2.5rem;
+}
+
+.img-fluid{
+  margin-top: 2rem;
+  border-style: solid;
+  border-width: .2rem;
+  border-color: white;
+}
+
+.footer{
+  background-color: #1c2541;
+  color: white;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
